@@ -229,3 +229,58 @@ header {
         justify-content: flex-end;
     }
 }
+
+/* Main Section */
+
+
+
+
+/* Main-Test Section */
+
+.test {
+    background: url(../Assets/test_img.png), cover no-repeat;
+    margin-bottom: 160px;
+}
+
+.overlay {
+    background-color: #F84646;
+}
+
+.test_desc{
+    padding: 40px;
+}
+
+.test_text {
+    color: var(--default-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.test_info {
+    color: var(--default-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.test_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.test_list-text {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
