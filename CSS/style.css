@@ -114,10 +114,26 @@ header {
     transition: all .3s ease-in-out;
 }
 
+.fixed {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    background-color: #FFF;
+    padding: 1rem;
+    z-index: 10;
+}
+
 .nav__group a:hover::before {
     width: 100%;
     transition: all .3s ease-in-out;
 }
+
+.hidden {
+    position: absolute !important;
+    top: 3.5rem !important;
+    left: 0rem !important;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Header Content */
 
@@ -180,11 +196,15 @@ header {
 }
 
 .yonetim__section {
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .yonetim__title {
     text-align: center;
+}
+
+.yonetim__title h2 {
+    font-size: 2rem;
 }
 
 .yonetim__title p {
@@ -228,13 +248,33 @@ header {
     z-index: 4;
 }
 
+.media__nav_content {
+    position: absolute;
+    width: 350px;
+    background-color: var(--light-red);
+    top: -50rem;
+    left: -50rem;
+    z-index: 11;
+    border-radius: 0 0 10px 10px;
+}
+
+.media_nav__group li {
+    padding: 1rem;
+}
+.media_nav__group li:hover {
+    background-color: white;
+    color: #F84646;
+}
+
 @media (min-width: 0px) and (max-width: 425px) {
     .navbar {
         padding: 1rem;
     }
     .media__nav {
         display: block;
+        position: relative;
     }
+    
     .navbar__nav {
         justify-content: space-between;
     }
@@ -274,18 +314,78 @@ header {
     .message {
         font-size: .7rem;
     }
+    .yonetim__card {
+        width: 90%;
+    }
+    /* Test section */
+    .test_list {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
-    
+    .navbar {
+        padding: 1rem;
+    }
+    .nav__group {
+        display: none;
+    }
+    header {
+        background-position: center;
+    }
+    .header__title h1 {
+        font-size: 3rem;
+    }
+    .header__title p {
+        font-size: 13px;
+    }
+    .header__title {
+        text-align: center;
+    }
+    .header__content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 3rem 0 0 0;
+    }
+    .header__input {
+        width: 100%;
+    } 
+    .header__input input{
+        font-size: .6rem;
+    }
+    .header__input button {
+        font-size: .6rem;
+        right: .2rem;
+    }
+    .message {
+        font-size: .7rem;
+    }
+    .yonetim__content {
+        gap: 1rem;
+    }
+    .yonetim__card {
+        width: 45%;
+    }
+    /* Test section */
+    .test_list {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .media__nav {
         display: none;
     }
     .navbar__nav {
         justify-content: flex-end;
+    }
+    .header__content {
+        padding: 1rem 0 0 1rem;
+    }
+    .yonetim__card {
+        width: 30%;
     }
 }
 
