@@ -14,6 +14,10 @@ function Submit() {
       message.innerHTML = "";
       message.style.bottom = "-600px";
     }, 2000);
+    if(!input.value.includes('@')) {
+      message.innerHTML = `<p class='warning_message'>Please write correct email!</p>`
+      message.style.backgroundColor = 'rgb(255, 174, 0)'
+    }
   } else {
     message.innerHTML = `<p class="red_message">
     Please fill the input!
@@ -39,7 +43,7 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'right',
       image: '../Assets/File.png',
-      circleColor: '#FF5391'
+      circleColor: '#ff5392c0'
   },
   {
       id: 2,
@@ -89,6 +93,7 @@ function handleWrapp() {
       <div class='yonetim__card'>
         <div class='yonetim__card_header'>
           <img src='${item.image}' />
+          <div class='yonetim__card_circle' style='background: ${item.circleColor}; right: ${item.circlePos};'></div>
         </div>
         <div class='yonetim__card_body'>
           <h1>${item.title}</h1>
