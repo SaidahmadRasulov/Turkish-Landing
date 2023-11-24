@@ -51,7 +51,7 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'left',
       image: '../Assets/Star.png',
-      circleColor: '#7553FF'
+      circleColor: '#7553ffad'
   },
   {
       id: 3,
@@ -59,7 +59,7 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'right',
       image: '../Assets/Crown.png',
-      circleColor: '#53C1FF'
+      circleColor: '#53c0ffa7'
   },
   {
       id: 4,
@@ -67,7 +67,7 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'left',
       image: '../Assets/ChartBar.png',
-      circleColor: '#53C1FF'
+      circleColor: '#53c0ffa8'
   },
   {
       id: 5,
@@ -75,7 +75,8 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'right',
       image: '../Assets/ChartPieSlice.png',
-      circleColor: '#FF5353'
+      circleColor: '#ff5353b0',
+      top: '-.5rem'
   },
   {
       id: 6,
@@ -83,7 +84,8 @@ const data =[
       desc: 'Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.',
       circlePos: 'right',
       image: '../Assets/FigmaLogo.png',
-      circleColor: '#FFBA53'
+      circleColor: '#ffba53b9',
+      top: '-.5rem'
   }
 ];
 
@@ -93,10 +95,11 @@ function handleWrapp() {
       <div class='yonetim__card'>
         <div class='yonetim__card_header'>
           <img src='${item.image}' />
-          <div class='yonetim__card_circle' style='background: ${item.circleColor}; right: ${item.circlePos};'></div>
+          <div class='yonetim__card_circle' style='background: ${item.circleColor};${item.circlePos}: 40%; top: ${item.top};'></div>
         </div>
         <div class='yonetim__card_body'>
           <h1>${item.title}</h1>
+          <p>${item.desc}</p>
         </div>
       </div>
     `
