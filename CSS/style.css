@@ -1,0 +1,231 @@
+/* GLOBAL STYLES */
+/* Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --light-red: #F84646;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--light-red);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid var(--light-red);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid var(--light-red);
+    color: var(--light-red);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--light-red);
+}
+
+::selection {
+    background-color: var(--light-red);
+    color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Header Styles */
+
+header {
+    height: 100vh;
+    background-image: url(../Assets/headerImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav__group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.nav__group a {
+    position: relative;
+}
+
+.nav__group a::before {
+    content: '';
+    position: absolute;
+    bottom: -.2rem;
+    width: 0%;
+    height: 2px;
+    border-radius: 10px;
+    background-color: var(--light-red);
+    transition: all .3s ease-in-out;
+}
+
+.nav__group a:hover::before {
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Header Content */
+
+.header__content {
+    padding-top: 8rem;
+    width: 60%;   
+}
+
+.header__title h1 {
+    font-size: 64px;
+}
+
+.header__title p {
+    font-size: 20px;
+    margin: 2rem 0;
+}
+
+.header__input {
+    position: relative;
+    width: 70%;
+}
+
+.header__input button {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.header__input input{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.message {
+    position: absolute;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgb(172, 170, 170);
+    bottom: -600px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.message p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.message i {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 0px) and (max-width: 425px) {
+    .navbar {
+        padding: 1rem;
+    }
+    .media__nav {
+        display: block;
+    }
+    .navbar__nav {
+        justify-content: space-between;
+    }
+    .nav__group {
+        display: none;
+    }
+    header {
+        background-image: linear-gradient(to right,#ffffff8e,#ffffff14 ), url("../Assets/headerImage.png") ;
+        background-position: right;
+        height: 90vh;
+        padding-bottom: 1rem;
+    }
+    .header__title h1 {
+        font-size: 2rem;
+    }
+    .header__title p {
+        font-size: 13px;
+    }
+    .header__title {
+        text-align: center;
+    }
+    .header__content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 3rem 0 0 0;
+    }
+    .header__input {
+        width: 100%;
+    } 
+    .header__input input{
+        font-size: .6rem;
+    }
+    .header__input button {
+        font-size: .6rem;
+        right: .2rem;
+    }
+    .message {
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    
+}
+
+@media (min-width: 768px) {
+    .media__nav {
+        display: none;
+    }
+    .navbar__nav {
+        justify-content: flex-end;
+    }
+}
