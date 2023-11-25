@@ -1,127 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Turkish-Landing</title>
     <!-- CSS Link -->
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
     <!-- Icons Link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header id="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="container">
-                    <nav class="navbar__nav">
-                        <div class="media__nav">
-                            <img src="./Assets/List.png" onclick="handleToggle()" alt="">
-                            <div class="media__nav_content" onclick="handleToggle()">
-                                <ul class="media_nav__group">
-                                    <li class="nav__item">
-                                        <a href="#chozum">Çözüm ve Hizmetler</a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#chozum">Ürünler</a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#chozum">Teknolojiler</a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#chozum">İnsan Kaynakları</a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#chozum">Kurumsal</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="default__flex">
-                            <ul class="nav__group">
-                                <li class="nav__item">
-                                    <a href="#chozum">Çözüm ve Hizmetler</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="#chozum">Ürünler</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="#chozum">Teknolojiler</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="#chozum">İnsan Kaynakları</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a href="#chozum">Kurumsal</a>
-                                </li>
-                            </ul>
-                            <button>İletişim</button>
-                        </div>
-                    </nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="container">
+            <nav class="navbar__nav">
+              <div class="media__nav">
+                <img src="./Assets/List.png" onclick="handleToggle()" alt="" />
+                <div class="media__nav_content" onclick="handleToggle()">
+                  <ul class="media_nav__group">
+                    <li class="nav__item">
+                      <a href="#chozum">Çözüm ve Hizmetler</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#chozum">Ürünler</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#chozum">Teknolojiler</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#chozum">İnsan Kaynakları</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#chozum">Kurumsal</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-            <div class="header__content">
-                <div class="header__title">
-                    <h1>Bilgi Teknolojilerinde 23 Yıllık Tecrübe</h1>
-                    <p>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-                </div>
-                <div class="header__input">
-                    <input id="searchInput" class="search__input" type="email" placeholder="Mail bültenimize kayıt ol">
-                    <button onclick="Submit()">Kayıt Ol</button>
-                </div>
-                <div class="message" id="message"></div>
-            </div>
+              </div>
+              <div class="default__flex">
+                <ul class="nav__group">
+                  <li class="nav__item">
+                    <a href="#chozum">Çözüm ve Hizmetler</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#chozum">Ürünler</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#chozum">Teknolojiler</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#chozum">İnsan Kaynakları</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#chozum">Kurumsal</a>
+                  </li>
+                </ul>
+                <button>İletişim</button>
+              </div>
+            </nav>
+          </div>
         </div>
+        <div class="header__content">
+          <div class="header__title">
+            <h1>Bilgi Teknolojilerinde 23 Yıllık Tecrübe</h1>
+            <p>
+              Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+              farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+              Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+            </p>
+          </div>
+          <div class="header__input">
+            <input
+              id="searchInput"
+              class="search__input"
+              type="email"
+              placeholder="Mail bültenimize kayıt ol"
+            />
+            <button onclick="Submit()">Kayıt Ol</button>
+          </div>
+          <div class="message" id="message"></div>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="yonetim__section">
-            <div class="container">
-                <div class="yonetim__title">
-                    <h2>Kalite ve Süreç Yönetimi</h2>
-                    <p>Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
-                </div>
-                <div class="yonetim__content" id="wrapping_content"></div>
-            </div>
-        </section>
-        <section class="test overlay">
+      <section class="yonetim__section">
+        <div class="container">
+          <div class="yonetim__title">
+            <h2>Kalite ve Süreç Yönetimi</h2>
+            <p>
+              Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için
+              farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje
+              Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.
+            </p>
+          </div>
+          <div class="yonetim__content" id="wrapping_content"></div>
+        </div>
+      </section>
+      <section class="test overlay">
+        <div class="container">
+          <div class="test_desc">
+            <p class="test_text">Test Yönetimiyle Neler Sağlıyoruz?</p>
+            <p class="test_info">IoT Destekli Çözümler</p>
+          </div>
+          <div class="test_list">
+            <p class="test_list-text">
+              Yazılım Kalitesini <br />
+              Arttırıyoruz
+            </p>
+            <img
+              class="test_list-img"
+              src="./Assets/CircleDoubleRight.svg"
+              alt="Double right"
+            />
+            <p class="test_list-text">
+              Olası Hataları Önceden
+              <br />
+              Belirliyoruz
+            </p>
+            <img
+              class="test_list-img"
+              src="./Assets/CircleDoubleRight.svg"
+              alt="Double right"
+            />
+            <p class="test_list-text">
+              Oluşabilecek Riskleri <br />
+              Önlüyoruz
+            </p>
 
-            <div class="container">
+            <img
+              class="test_list-img"
+              src="./Assets/CircleDoubleRight.svg"
+              alt="Double right"
+            />
 
-                <div class="test_desc">
-
-                    <p class="test_text">Test Yönetimiyle Neler Sağlıyoruz?</p>
-
-                    <p class="test_info">IoT Destekli Çözümler</p>
-
-                </div>
-
-               <div class="test_list">
-
-                <p class="test_list-text">Yazılım Kalitesini <br> Arttırıyoruz</p>
-
-                <img class="test_list-img" src="./Assets/CircleDoubleRight.svg" alt="Double right">
-
-                <p class="test_list-text">Olası Hataları Önceden
-                       <br> Belirliyoruz</p>
-
-                <img class="test_list-img" src="./Assets/CircleDoubleRight.svg" alt="Double right">
-
-                <p class="test_list-text">Oluşabilecek Riskleri
-                  <br>  Önlüyoruz</p>
-
-                <img class="test_list-img" src="./Assets/CircleDoubleRight.svg" alt="Double right">
-
-                <p class="test_list-text">Zaman Maliyetten      <br> Tasarruf Sağlıyoruz</p>
-
-               </div>
-
-            </div>
-
-        </section>
+            <p class="test_list-text">
+              Zaman Maliyetten <br />
+              Tasarruf Sağlıyoruz
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- JS Link -->
     <script src="./JS/script.js"></script>
-</body>
+  </body>
 </html>
