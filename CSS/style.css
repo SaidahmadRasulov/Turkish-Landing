@@ -4,6 +4,10 @@
 
 /* Blocks */
 @import url(./header.css);
+@import url(./test.css);
+@import url(./kalite.css);
+@import url(./reference.css);
+@import url(./contact.css);
 
 :root {
   --light-red: #f84646;
