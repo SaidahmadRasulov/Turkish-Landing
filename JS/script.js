@@ -1,6 +1,20 @@
 // Header JS
 const input = document.getElementById("searchInput");
 const message = document.getElementById("message");
+const navbar = document.querySelector('.navbar');
+const hamburger = document.querySelector('.media__nav_content');
+
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 0) {
+    navbar.classList.add('fixed')
+  } else {
+    navbar.classList.remove('fixed')
+  }
+})
+
+function handleToggle() {
+  hamburger.classList.toggle('hidden')
+}
 
 function Submit() {
   if (input.value !== "") {

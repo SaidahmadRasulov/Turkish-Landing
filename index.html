@@ -11,12 +11,31 @@
 </head>
 <body>
     
-    <header>
+    <header id="header">
         <div class="container">
             <div class="navbar">
                 <nav class="navbar__nav">
                     <div class="media__nav">
-                        <img src="./Assets/List.png" alt="">
+                        <img src="./Assets/List.png" onclick="handleToggle()" alt="">
+                        <div class="media__nav_content" onclick="handleToggle()">
+                            <ul class="media_nav__group">
+                                <li class="nav__item">
+                                    <a href="#chozum">Çözüm ve Hizmetler</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#chozum">Ürünler</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#chozum">Teknolojiler</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#chozum">İnsan Kaynakları</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#chozum">Kurumsal</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <ul class="nav__group">
                         <li class="nav__item">
