@@ -83,12 +83,12 @@
         display: none;
     }
 
-    .reference__section .container{
-        /* padding: 0 20px; */
+    .reference__title h1{
+        font-size: 25px;
     }
 
-    .reference__title h1{
-        
+    .reference__title p {
+        font-size: 16px;
     }
 }
 
