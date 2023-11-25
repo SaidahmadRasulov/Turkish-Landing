@@ -198,4 +198,21 @@
     .kalite_top-imgTop, .kalite_btm-imgBtm {
         width: 90%;
     }
+
+    .kalite_top-text{
+        font-size: 36px;
+    }
+
+    .kalite_box-top{
+        gap: 20px;
+    }
+
+    .kalite_btm-text {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_box-btm{
+        gap: 20px;
+    }
 }
