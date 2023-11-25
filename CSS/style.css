@@ -519,78 +519,69 @@ header {
 .kalite {
     margin-bottom: 160px;
 }
-
-.kalite_top {
-    margin-bottom: 120px;
+.container {
 }
-
 .kalite_box {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.kalite_box-top {
     display: flex;
     gap: 170px;
 }
-
-
-.kalite_box-text {
+.kalite_text-sect {
+}
+.kalite_top-text {
     color: var(--text-title, #2E2E2E);
     font-family: Manrope;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: 76px;
+    line-height: 76px; /* 118.75% */
     margin-bottom: 40px;
 }
-
-.kalite_box_desc {
+.kalite_top-desc {
     color: var(--text-body, #808080);
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 32px; /* 200% */
     margin-bottom: 80px;
 }
 
-.kalite_box-imgTop{
-    max-width: 504px;
-    max-height: 480px;        
+.kalite_top-img {
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+.kalite_top-imgTop{}
 
-    .kalite .container{
-        padding: 0 40px;
-    }
 
-    .kalite_bottom{
-        display: flex;
-        gap: 50px;
-    }
-
-    .kalite_box-text{
-        font-size: 40px;
-        line-height: 59px;
-        margin-bottom: 20px;
-    }
-
-    .kalite_box_desc{
-        margin-bottom: 46px;
-        font-size: 14px;
-    }
-
-    .kalite_box-imgTop{
-        max-width: 404px;
-        max-height: 420px;  
-    }
-
-    .kalite_imgR{
-        max-width: 404px;
-        max-height: 420px;  
-    }
-
-    .kalite_bottom{
-        display: flex;
-        gap: 20px;
-    }
-
+.kalite_box-btm {
+    display: flex;
+    gap: 170px;
 }
-
+.kalite_btm-img {
+}
+.kalite_btm-imgBtm {
+}
+.kalite_text-sect {
+}
+.kalite_btm-text {
+    color: var(--text-title, #2E2E2E);
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 118.75% */
+    margin-bottom: 40px;
+}
+.kalite_btm-desc {
+    color: var(--text-body, #808080);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    margin-bottom: 80px;
+}
