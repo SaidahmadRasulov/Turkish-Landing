@@ -411,12 +411,7 @@ header {
 
 /* Main-Test Section */
 
-.test {
-  background: url(../Assets/test_img.png), cover no-repeat;
-  /* margin-bottom: 160px; */
-}
-
-.test .container{
+/* .test .container{
     padding: 0 20px;
 }
 
@@ -511,11 +506,11 @@ header {
         rotate: 90deg;
     }
 
-}
+}  */
 
 
 /* Main-Kalite Section */
-
+/* 
 .kalite {
     margin-top: 160px;
     margin-bottom: 160px;
@@ -537,7 +532,7 @@ header {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: 76px; /* 118.75% */
+    line-height: 76px;
     margin-bottom: 40px;
 }
 .kalite_top-desc {
@@ -546,7 +541,7 @@ header {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     margin-bottom: 80px;
 }
 
@@ -560,7 +555,7 @@ header {
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
-    line-height: 76px; /* 118.75% */
+    line-height: 76px;
     margin-bottom: 40px;
 }
 .kalite_btm-desc {
@@ -569,12 +564,12 @@ header {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
     margin-bottom: 80px;
-}
+} */
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .kalite .container{
         padding: 0 50px;
     }
@@ -697,11 +692,11 @@ header {
     .kalite_box{
         gap: 60px;
     }
-}
+} */
 
 /* Reference Section Styles */
 
-.reference__section {
+/* .reference__section {
     padding: 2rem 0;
     background-color: var(--gray);
 }
@@ -822,12 +817,12 @@ header {
     .reference__group_item:nth-child(8) {
         grid-area: 3 / 4 / 6 / 5;
     }
-}
+} */
 
 
 /* Contact styles section */
 
-.contact__section {
+/* .contact__section {
   padding: 4rem 0;
 }
 
@@ -851,4 +846,4 @@ header {
 
 .contact__button {
   text-align: center;
-}
+} */
