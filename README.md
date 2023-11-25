@@ -1,4 +1,3 @@
-# Turkish-Landing
-
-<h1>Hello EveryBody!</h1>
-<h3>This project name is Turkish Landing! This project maked in team working</h3>
+<h1>We are anonymous developers 🤖!
+</h1>
+<img src='https://github.com/SaidahmadRasulov/Turkish-Landing/assets/99071323/ecef9c3e-0871-4f49-9a9c-ec4a90dbfbf7' />
