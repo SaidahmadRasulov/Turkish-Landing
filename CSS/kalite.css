@@ -1,0 +1,179 @@
+.kalite {
+    margin: 160px 0;
+    background-color: #fff;
+}
+
+.kalite_box {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.kalite_box-top {
+    display: flex;
+    gap: 170px;
+}
+.kalite_top-text {
+    color: var(--text-title, #2E2E2E);
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 118.75% */
+    margin-bottom: 40px;
+}
+.kalite_top-desc {
+    color: var(--text-body, #808080);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    margin-bottom: 80px;
+}
+
+.kalite_box-btm {
+    display: flex;
+    gap: 170px;
+}
+.kalite_btm-text {
+    color: var(--text-title, #2E2E2E);
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px; /* 118.75% */
+    margin-bottom: 40px;
+}
+.kalite_btm-desc {
+    color: var(--text-body, #808080);
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    margin-bottom: 80px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .kalite .container{
+        padding: 0 50px;
+    }
+
+    .kalite_top-text{
+        font-size: 58px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_btm-text {
+        font-size: 58px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_top-desc{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_btm-desc {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_top-imgTop{
+        max-width: 420px;
+        max-height: 400px;
+    }
+
+    .kalite_btm-imgBtm {
+        max-width: 420px;
+        max-height: 400px;
+    }
+
+    .kalite_box-top{
+        gap: 50px;
+    }
+
+    .kalite_box-btm {
+        gap: 50px;
+    }
+
+}
+
+
+@media (min-width: 450px) and (max-width: 768px){
+    .kalite .container{
+        padding: 0 20px;
+    }
+
+    .kalite_top-text{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_btm-text {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_top-desc{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_btm-desc {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_top-imgTop, .kalite_btm-imgBtm{
+        width: 335px;
+        max-height: 310px;
+    }
+    .kalite_box-top{
+        gap: 50px;
+    }
+
+    .kalite_box-btm {
+        gap: 50px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 450px){
+    .kalite_box-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kalite_top-text, .kalite_btm-text{
+        margin-bottom: 0;
+    }
+
+    .kalite_top-img, .kalite_btm-imgBtm{
+        margin-bottom: 0;
+    }
+
+    .kalite_box-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .kalite_box-btm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kalite_box{
+        gap: 60px;
+    }
+
+    .kalite_top-imgTop, .kalite_btm-imgBtm {
+        width: 90%;
+    }
+}
