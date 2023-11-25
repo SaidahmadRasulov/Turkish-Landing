@@ -82,6 +82,14 @@
     .reference__group_item:nth-child(7), .reference__group_item:nth-child(8), .reference__group_item:nth-child(9) {
         display: none;
     }
+
+    .reference__section .container{
+        /* padding: 0 20px; */
+    }
+
+    .reference__title h1{
+        
+    }
 }
 
 @media (min-width: 425px) and (max-width: 768px) {
