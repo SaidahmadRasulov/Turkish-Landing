@@ -550,3 +550,47 @@ header {
     margin-bottom: 80px;
 }
 
+.kalite_box-imgTop{
+    max-width: 504px;
+    max-height: 480px;        
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    .kalite .container{
+        padding: 0 40px;
+    }
+
+    .kalite_bottom{
+        display: flex;
+        gap: 50px;
+    }
+
+    .kalite_box-text{
+        font-size: 40px;
+        line-height: 59px;
+        margin-bottom: 20px;
+    }
+
+    .kalite_box_desc{
+        margin-bottom: 46px;
+        font-size: 14px;
+    }
+
+    .kalite_box-imgTop{
+        max-width: 404px;
+        max-height: 420px;  
+    }
+
+    .kalite_imgR{
+        max-width: 404px;
+        max-height: 420px;  
+    }
+
+    .kalite_bottom{
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
