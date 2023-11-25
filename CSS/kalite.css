@@ -1,6 +1,5 @@
 .kalite {
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 160px 0;
     background-color: #fff;
 }
 
@@ -56,7 +55,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .kalite .container{
         padding: 0 50px;
     }
@@ -102,7 +101,7 @@
 }
 
 
-@media (max-width: 768px){
+@media (min-width: 450px) and (max-width: 768px){
     .kalite .container{
         padding: 0 20px;
     }
@@ -127,16 +126,10 @@
         margin-bottom: 25px;
     }
 
-    .kalite_top-imgTop{
-        max-width: 335px;
+    .kalite_top-imgTop, .kalite_btm-imgBtm{
+        width: 335px;
         max-height: 310px;
     }
-
-    .kalite_btm-imgBtm {
-        max-width: 335px;
-        max-height: 310px;
-    }
-
     .kalite_box-top{
         gap: 50px;
     }
@@ -146,7 +139,7 @@
     }
 }
 
-@media (max-width: 378px){
+@media (min-width: 0px) and (max-width: 450px){
     .kalite_box-top{
         display: flex;
         flex-direction: column;
@@ -178,5 +171,9 @@
 
     .kalite_box{
         gap: 60px;
+    }
+
+    .kalite_top-imgTop, .kalite_btm-imgBtm {
+        width: 90%;
     }
 }

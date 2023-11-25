@@ -60,7 +60,7 @@ header {
 .hidden {
   position: absolute !important;
   top: 3.5rem !important;
-  left: 0rem !important;
+  left: 0% !important;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -140,6 +140,9 @@ header {
 .media_nav__group li:hover {
   background-color: white;
   color: #f84646;
+}
+.media_nav__group li:last-child:hover {
+    border-radius: 0 0 10px 10px;
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
