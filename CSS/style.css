@@ -87,7 +87,7 @@ header {
 .navbar__nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 1rem;
 }
 
@@ -372,6 +372,16 @@ header {
         flex-wrap: wrap;
         padding: 1rem;
     }
+}
+
+.media__nav {
+    display: none;
+}
+
+.default__flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
