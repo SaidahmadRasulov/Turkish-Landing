@@ -145,7 +145,7 @@ header {
     border-radius: 0 0 10px 10px;
 }
 
-@media (min-width: 0px) and (max-width: 425px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .navbar {
     padding: 1rem;
   }
@@ -196,7 +196,7 @@ header {
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 450px) and (max-width: 768px) {
   .navbar {
     padding: 1rem;
   }

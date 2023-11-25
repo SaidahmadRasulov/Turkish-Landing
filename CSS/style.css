@@ -9,6 +9,7 @@
 @import url(./kalite.css);
 @import url(./reference.css);
 @import url(./contact.css);
+@import url(./footer.css);
 
 :root {
   --light-red: #f84646;

@@ -53,7 +53,7 @@
   
   
   
-  @media (min-width: 0px) and (max-width: 425px) {
+  @media (min-width: 0px) and (max-width: 450px) {
     
     .yonetim__card {
       width: 90%;
@@ -65,7 +65,7 @@
     }
   }
   
-  @media (min-width: 425px) and (max-width: 768px) {
+  @media (min-width: 450px) and (max-width: 768px) {
     
     .yonetim__content {
       gap: 1rem;
