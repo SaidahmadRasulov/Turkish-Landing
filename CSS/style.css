@@ -299,8 +299,13 @@ header {
     margin-bottom: 160px;
 }
 
+.test .container{
+    padding: 0 40px;
+}
+
 .overlay {
     background-color: #F84646;
+    padding-bottom: 50px;
 }
 
 .test_desc{
@@ -330,19 +335,22 @@ header {
 
 .test_list {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
-    margin: 0 auto;
 }
 
 .test_list-text {
     color: #FFF;
     font-family: Manrope;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
 }
+
+.test_list-img {
+}
+
+
 
 @media (max-width: 768px) {
     
@@ -352,13 +360,8 @@ header {
     .test_info {
         font-size: 18px;
     }
-    .test_list {
-        display: flex;
-        justify-content: space-between;
-    }
-    .test_list-text {
-        font-size: 14px;
-    }
+   
+   
 }
 
 @media (min-width: 0px) and (max-width: 425px){
@@ -370,25 +373,13 @@ header {
         font-size: 14px;
     }
 
-    .test_list-text {
-        font-size: 18px;
-    }
+    
 
-    .test_list {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
+    
 
-    .test_list-img{
-        rotate: 90deg;
-    }
+   
 
-    .test_list-text {
-        font-size: 10px;
-    }
+   
 
-    .test_desc {
-        justify-content: center;
-    }
+    
 }
