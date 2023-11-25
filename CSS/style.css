@@ -527,8 +527,6 @@ header {
     margin-bottom: 160px;
     background-color: #fff;
 }
-.container {
-}
 .kalite_box {
     display: flex;
     flex-direction: column;
@@ -537,8 +535,6 @@ header {
 .kalite_box-top {
     display: flex;
     gap: 170px;
-}
-.kalite_text-sect {
 }
 .kalite_top-text {
     color: var(--text-title, #2E2E2E);
@@ -558,22 +554,9 @@ header {
     line-height: 32px; /* 200% */
     margin-bottom: 80px;
 }
-
-.kalite_top-img {
-}
-
-.kalite_top-imgTop{}
-
-
 .kalite_box-btm {
     display: flex;
     gap: 170px;
-}
-.kalite_btm-img {
-}
-.kalite_btm-imgBtm {
-}
-.kalite_text-sect {
 }
 .kalite_btm-text {
     color: var(--text-title, #2E2E2E);
