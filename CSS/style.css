@@ -521,6 +521,7 @@ header {
     margin-bottom: 160px;
     background-color: #fff;
 }
+
 .kalite_box {
     display: flex;
     flex-direction: column;
@@ -572,6 +573,131 @@ header {
     margin-bottom: 80px;
 }
 
+
+@media (max-width: 1024px) {
+    .kalite .container{
+        padding: 0 50px;
+    }
+
+    .kalite_top-text{
+        font-size: 58px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_btm-text {
+        font-size: 58px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_top-desc{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_btm-desc {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_top-imgTop{
+        max-width: 420px;
+        max-height: 400px;
+    }
+
+    .kalite_btm-imgBtm {
+        max-width: 420px;
+        max-height: 400px;
+    }
+
+    .kalite_box-top{
+        gap: 50px;
+    }
+
+    .kalite_box-btm {
+        gap: 50px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .kalite .container{
+        padding: 0 20px;
+    }
+
+    .kalite_top-text{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_btm-text {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .kalite_top-desc{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_btm-desc {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .kalite_top-imgTop{
+        max-width: 335px;
+        max-height: 310px;
+    }
+
+    .kalite_btm-imgBtm {
+        max-width: 335px;
+        max-height: 310px;
+    }
+
+    .kalite_box-top{
+        gap: 50px;
+    }
+
+    .kalite_box-btm {
+        gap: 50px;
+    }
+}
+
+@media (max-width: 378px){
+    .kalite_box-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kalite_top-text, .kalite_btm-text{
+        margin-bottom: 0;
+    }
+
+    .kalite_top-img, .kalite_btm-imgBtm{
+        margin-bottom: 0;
+    }
+
+    .kalite_box-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .kalite_box-btm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kalite_box{
+        gap: 60px;
+    }
+}
 
 /* Reference Section Styles */
 
