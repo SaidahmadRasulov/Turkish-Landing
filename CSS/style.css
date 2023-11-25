@@ -416,170 +416,49 @@ header {
   margin-bottom: 160px;
 }
 
-.overlay {
-  background-color: #f84646;
+.test .container{
+    padding: 0 20px;
 }
 
-.test_desc {
-  padding: 40px;
+.overlay {
+    background-color: #F84646;
+}
+
+.test_desc{
+    padding: 40px;
 }
 
 .test_text {
-  color: var(--default-white, #fff);
-  text-align: center;
-  font-family: Manrope;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 64px;
+    color: var(--default-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
 }
 
 .test_info {
-  color: var(--default-white, #fff);
-  text-align: center;
-  font-family: Manrope;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+    color: var(--default-white, #FFF);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .test_list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .test_list-text {
-  color: #fff;
-  font-family: Manrope;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-
-/* Reference Section Styles */
-
-.reference__section {
-    padding: 2rem 0;
-    background-color: var(--gray);
-}
-
-.reference__title {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.reference__title h1{
-    font-size: 48px;
-
-}
-
-.reference__group {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.reference__group_item {
-  width: 170px;
-  height: 96px;
-  background-color: white;
-  border-radius: 16px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.reference__group_item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 10px 0px var(--light-red);
-}
-
-.reference__group_item:nth-child(1) {
-    grid-area: 3 / 1 / 5 / 2;
-}
-.reference__group_item:nth-child(2) {
-    grid-area: 2 / 2 / 4 / 3;
-}
-.reference__group_item:nth-child(3) {
-    grid-area: 4 / 2 / 6 / 3;
-}
-.reference__group_item:nth-child(4) {
-    grid-area: 1 / 3 / 3 / 4;
-}
-.reference__group_item:nth-child(5) {
-    grid-area: 3 / 3 / 5 / 4;
-}
-.reference__group_item:nth-child(6) {
-    grid-area: 5 / 3 / 7 / 4;
-}
-.reference__group_item:nth-child(7) {
-    grid-area: 2 / 4 / 4 / 5;
-}
-.reference__group_item:nth-child(8) {
-    grid-area: 4 / 4 / 6 / 5;
-}
-.reference__group_item:nth-child(9) {
-    grid-area: 3 / 5 / 5 / 6;
-}
-
-.reference__group_item:last-child {
-    display: none;
-}
-
-@media (min-width: 0px) and (max-width: 425px) {
-    .reference__group {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .reference__group_item {
-        width: 80%;
-    }
-    .reference__group_item:nth-child(1), .reference__group_item:nth-child(2),.reference__group_item:nth-child(3),.reference__group_item:nth-child(4),.reference__group_item:nth-child(5), .reference__group_item:nth-child(6) {
-        display: block
-    }
-    .reference__group_item:nth-child(7), .reference__group_item:nth-child(8), .reference__group_item:nth-child(9) {
-        display: none;
-    }
-}
-
-@media (min-width: 425px) and (max-width: 768px) {
-    .reference__section {
-        padding: 1rem;
-    }
-    .reference__group_item {
-        width: 100%;
-        height: 50px !important;
-        padding: 4px;
-    }
-    .reference__group_item img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        padding: 0 !important;
-    }
-    .reference__group_item:nth-child(1) {
-        grid-area: 2 / 1 / 3/ 1;
-    }
-    .reference__group_item:nth-child(2) {
-        grid-area: 2 / 2 / 4 / 3;
-    }
-    .reference__group_item:nth-child(5) {
-        grid-area: 2 / 3 / 5 / 4;
-    }
-    .reference__group_item:nth-child(3) {
-        grid-area: 3 / 2 / 6 / 3;
-    }
-    .reference__group_item:nth-child(9) {
-        grid-area: 2 / 5 / 5 / 6;
-    }
-    .reference__group_item:nth-child(6) {
-        grid-area: 3 / 3 / 7 / 4;
-    }
-    .reference__group_item:nth-child(8) {
-        grid-area: 3 / 4 / 6 / 5;
-    }
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
 }
