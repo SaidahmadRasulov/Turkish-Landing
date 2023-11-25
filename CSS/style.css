@@ -400,7 +400,7 @@ header {
 }
 
 .test .container{
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .overlay {
@@ -409,7 +409,7 @@ header {
 }
 
 .test_desc{
-    padding: 40px;
+    padding-top: 40px;
     
 }
 
@@ -421,6 +421,7 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: 64px;
+    margin-bottom: 20px;
 }
 
 .test_info {
@@ -431,6 +432,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 30px;
 }
 
 .test_list {
@@ -460,7 +462,14 @@ header {
     .test_info {
         font-size: 18px;
     }
-   
+
+    .test_list-text{
+        font-size: 14px;
+    }
+
+    .test_list-img{
+        scale: 0.8;
+    }
    
 }
 
@@ -471,15 +480,25 @@ header {
 
     .test_info {
         font-size: 14px;
+        margin-bottom: 30px;
     }
 
+    .test_desc {
+        padding-top: 30px;
+    }
     
+    .test_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .test_list-text {
+        text-align: center;
+    }
+    .test_list-img {
+        rotate: 90deg;
+    }
 
-    
-
-   
-
-   
-
-    
 }
