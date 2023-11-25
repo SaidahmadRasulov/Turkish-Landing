@@ -50,8 +50,20 @@
       font-style: normal;
       font-weight: 700;
   }
-  
-  @media (min-width: 450px) and (max-width: 768px) {
+
+  @media (max-width: 835px){
+
+    .test_list-text{
+        font-size: 15px;
+    }
+
+    .test_list-img{
+        scale: 0.9;
+    }
+
+  }
+
+  @media (max-width: 768px) {
       
       .test_text {
           font-size: 30px;
